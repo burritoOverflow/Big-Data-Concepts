@@ -6,15 +6,14 @@ public class TreeMapArrayList {
   public static void main(String[] args) throws FileNotFoundException, IOException {
 
     TreeMap<Integer, ArrayList<Integer>> TM = new TreeMap<Integer, ArrayList<Integer>>();
-
     BufferedReader br = new BufferedReader(new FileReader("SampleText.txt"));
-
-    String st;
+    
     // [0] is the num, [1] is the value
     // if [0] is not in TreeMap, add to TreeMap
     // with 0 as key, and the [1] as the first value in the treemap
     // else, append the [1] to [0]'s value
-
+    
+    String st;
     while ((st = br.readLine()) != null) {
       String[] splitString = st.split("\t");
 
