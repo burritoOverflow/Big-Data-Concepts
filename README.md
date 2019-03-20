@@ -7,7 +7,7 @@ go to folder - /usr/local/hadoop/share/hadoop/mapreduce/mymaxtemp
  
 $ export HADOOP_CLASSPATH=$(/usr/local/hadoop/bin/hadoop classpath)
  
-save MaxTemo.Java here
+save MaxTemp.Java here
 
 create MaxTemp dir in /usr/local/hadoop/share/hadoop/mapreduce/mymaxtemp
  
