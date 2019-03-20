@@ -1,3 +1,5 @@
+// testing TreeMap using SampleText as input.
+
 import java.util.*;
 import java.io.*;
 
@@ -7,7 +9,7 @@ public class TreeMapArrayList {
 
     TreeMap<Integer, ArrayList<Integer>> TM = new TreeMap<Integer, ArrayList<Integer>>();
 
-    BufferedReader br = new BufferedReader(new FileReader("/Users/robschumann/Desktop/Other Prog./SampleText.txt"));
+    BufferedReader br = new BufferedReader(new FileReader(""));
 
     String st;
     // [0] is the num, [1] is the value
