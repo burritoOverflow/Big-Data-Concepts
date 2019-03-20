@@ -1,3 +1,6 @@
+Examples to run the two smaller programs are below; best to use the script.
+
+
 for MaxTemp.java
 
 go to folder - /usr/local/hadoop/share/hadoop/mapreduce/mymaxtemp
