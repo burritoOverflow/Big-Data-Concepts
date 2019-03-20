@@ -9,7 +9,7 @@ public class TreeMapArrayList {
 
     TreeMap<Integer, ArrayList<Integer>> TM = new TreeMap<Integer, ArrayList<Integer>>();
 
-    BufferedReader br = new BufferedReader(new FileReader(""));
+    BufferedReader br = new BufferedReader(new FileReader("SampleText.txt"));
 
     String st;
     // [0] is the num, [1] is the value
