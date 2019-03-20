@@ -1,5 +1,3 @@
-// testing TreeMap using SampleText as input.
-
 import java.util.*;
 import java.io.*;
 
@@ -43,6 +41,5 @@ public class TreeMapArrayList {
       Map.Entry ME = (Map.Entry)it.next();
       System.out.print(ME.getKey() + ": " + ME.getValue() + "\n\n");
     }
-
   }
 }
