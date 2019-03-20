@@ -39,6 +39,7 @@ public class TreeMapArrayList {
     Iterator it = set.iterator();
     while (it.hasNext()) {
       Map.Entry ME = (Map.Entry)it.next();
+      // trust but verify
       System.out.print(ME.getKey() + ": " + ME.getValue() + "\n\n");
     }
   }
