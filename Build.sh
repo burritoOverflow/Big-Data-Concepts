@@ -4,7 +4,7 @@
 # just for a sanity check
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64/
 
-#Get directory,file, and input names
+# Get directory, file, and input names
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 cd $DIR
 FILE_NAME=`echo *.java`
